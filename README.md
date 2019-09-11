@@ -11,3 +11,7 @@ It has been made less generalised- no class (haha) and fairly 4-pin specific, th
 A wordy clock for my wife...
 My arduino nano does not have enough outputs for all LEDs independantly, so charlieplexing is the easy way out.
 And no- I do not want to use neopixel LEDs- I want to power it with a battery, not from the mains.
+
+### Small python script to make the pin-outs clear.
+This displays the (zero-ordered) pin numbers supplying each node (LED).
+The original Chuckplex code does a good job of ordering the wiring by pins, rather than node (LED), and I borrowed the nice method of generating the wiring.
